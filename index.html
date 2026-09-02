@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>SharePoint | RFP Workspace</title>
+<title>SharePoint | Project Baobab Workspace</title>
 <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Microsoft_Office_SharePoint_%282019%E2%80%932025%29.svg/3840px-Microsoft_Office_SharePoint_%282019%E2%80%932025%29.svg.png">
-<meta name="description" content="Secure RFP document workspace powered by VaultShare." />
+<meta name="description" content="Secure subcontractor prequalification workspace powered by VaultShare." />
 <!--
   AUTHORIZED SECURITY-AWARENESS SIMULATION (internal use only)
   ------------------------------------------------------------
@@ -55,10 +55,10 @@
   .secure{display:flex;align-items:center;gap:8px;color:#4d5966;font-size:13px}
   .secure-dot{width:8px;height:8px;background:#19a974;border-radius:50%;box-shadow:0 0 0 4px rgba(25,169,116,.12)}
 
-  .hero{padding:62px 8px 38px;max-width:800px}
+  .hero{padding:52px 4px 30px}
   .eyebrow{
-    display:inline-flex;align-items:center;gap:7px;padding:7px 11px;border-radius:999px;
-    color:var(--blue2);font-size:12px;font-weight:600;
+    display:inline-flex;align-items:center;gap:8px;padding:6px 13px;border-radius:99px;
+    font-size:11.5px;letter-spacing:1.4px;text-transform:uppercase;color:var(--blue2);font-weight:600;
     background:rgba(15,108,189,.08);border:1px solid rgba(15,108,189,.10)
   }
   h1{font-size:44px;line-height:1.08;letter-spacing:-1.6px;margin:17px 0 13px;font-weight:650}
@@ -168,35 +168,36 @@
     </header>
 
     <section class="hero">
-      <span class="eyebrow">RFP DOCUMENT LIBRARY</span>
-      <h1>Proposal & Transaction Documents</h1>
+      <span class="eyebrow">PROJECT BAOBAB &bull; SUBCONTRACTOR PREQUALIFICATION</span>
+      <h1>SAP S/4HANA Transformation &mdash; Work Packages</h1>
       <p>
-        Select the applicable workspace below to review the shared request-for-proposal materials.
-        Documents are accessed through the secure SharePoint environment.
+        Select a work package below to review the scope, resource requirements, and commercial
+        evaluation criteria for the prequalification shortlist. Submissions close
+        <strong>26 September 2026</strong>. Documents are accessed through the secure SharePoint environment.
       </p>
     </section>
 
-    <section class="workspace" aria-label="RFP folders">
+    <section class="workspace" aria-label="Work package folders">
       <div class="workspace-head">
         <strong>Shared folders</strong>
         <span>2 folders</span>
       </div>
 
       <div class="folder-grid">
-        <button class="folder" type="button" onclick="openWorkspace('Law Firm RFP')">
+        <button class="folder" type="button" onclick="openWorkspace('SAP-B01 Implementation & Upgrade Resources')">
           <span class="folder-icon" aria-hidden="true"></span>
           <span>
-            <div class="folder-title">Law Firm RFP</div>
-            <div class="folder-meta">Legal services • RFP materials • Scope & submission documents</div>
+            <div class="folder-title">SAP-B01 &mdash; Implementation &amp; Upgrade Resources</div>
+            <div class="folder-meta">14 FTE over 18 months &bull; Functional, technical &amp; migration streams &bull; Scope &amp; rates</div>
           </span>
           <span class="arrow" aria-hidden="true">›</span>
         </button>
 
-        <button class="folder" type="button" onclick="openWorkspace('Real Estate RFP')">
+        <button class="folder" type="button" onclick="openWorkspace('SAP-T02 Accredited Training & End-User Enablement')">
           <span class="folder-icon" aria-hidden="true"></span>
           <span>
-            <div class="folder-title">Real Estate RFP</div>
-            <div class="folder-meta">Property services • Acquisition requirements • Proposal materials</div>
+            <div class="folder-title">SAP-T02 &mdash; Accredited Training &amp; End-User Enablement</div>
+            <div class="folder-meta">SAP-certified end-user training &bull; Business unit rollout &bull; Evaluation criteria</div>
           </span>
           <span class="arrow" aria-hidden="true">›</span>
         </button>
@@ -204,7 +205,7 @@
     </section>
 
     <div class="foot">
-      <span>SharePoint • Confidential business documents</span>
+      <span>SharePoint &bull; Confidential business documents</span>
       <span>Access is intended for authorized recipients only.</span>
     </div>
   </main>
